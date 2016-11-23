@@ -1,0 +1,45 @@
+.headerpic {
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	background-color: #71c6ad;
+	font-family: 'Amatic SC', cursive;
+	font-size: 4vw;
+
+}
+
+input {
+	width: 25%;
+}
+
+#Item {
+	margin-top: 15px;
+}
+
+#shoppingItems {
+	margin-top: 15px;
+}
+
+section {
+	margin-top: 45px;
+	width: 50%;
+	margin: auto;
+}
+
+div {
+/*	border-style: solid;
+	border-color: black;*/
+}
+
+#TotalBox {
+/*	border-style: solid;
+	border-color: red;*/
+}
+
+.bigbox {
+/*		border-style: solid;
+		border-color: green;*/
+}

@@ -23,7 +23,15 @@ var shoppingList =
 
 		printedList.innerHTML = shoppingList[i].name + "$" + shoppingList[i].price.toFixed(2);
 
-		document.body.appendChild(printedList);
+
+	// var printedTotal = document.getElementById('TotalBox');
+
+	// printedTotal.innerHTML = "Total $ " + shoppingList.totalAmount();
+
+	// document.body.appendChild(printedTotal);
+
+
+		document.getElementById('shoppingItems').appendChild(printedList);
 	};
 
 shoppingList.totalAmount = function(){

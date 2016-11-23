@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Lab grocery list</title>
-  	
+	<meta charset="utf-8">
+	<title>Lab grocery list</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
 </head>
 <body>
 
-<label for="groceryItem">Grocery Item:</label><br />
-<input type="text" placeholder="Grocery Item" id="newGroceryItem"><br />
-<br />
+	<img class="headerpic" src="grocery2.jpg">
+	<div class="bigbox">
+		<section for="groceryItem">Grocery Item:</section>
+		<input type="text" placeholder="Grocery Item" id="newGroceryItem">
+		<!-- <br /><br> -->
+		<section id="Item" for="exclamation3">Item Price:</section>
+		<input type="text" placeholder="Item Price" id="newItemPrice">
+		<br />
 
-<label for="exclamation3">Item Price:</label><br />
-<input type="text" placeholder="Item Price" id="newItemPrice"><br />
-<br />
+		<button onclick="addToList()" type="button" value="Submit" id="Submit">Add to list</button>
 
-<button onclick="addToList()" type="button" value="Submit" id="Submit">Add to list</button>
-<br />
-<br />
-<div id="TotalBox"></div>
+		<div id="shoppingItems"></div>
+		<div id="TotalBox"></div>
+	</div>
 
-<script src="lab_8_bonus.js"></script>
+
+	<script src="lab_8_bonus.js"></script>
 
 </body>
 </html>
